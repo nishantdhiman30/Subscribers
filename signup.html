@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.87.0" />
+    <title>SignUp Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Stylesheet -->
+    <link href="public/css/signup.css" rel="stylesheet" />
+  </head>
+
+  <body class="text-center">
+    <main class="form-signin">
+      <form method="POST">
+        <img
+          class="mb-4 img"
+          src="public/images/attachment_120097259.png"
+          alt=""
+          width="72"
+          height="57"
+        />
+        <h1 class="h3 mb-3 fw-normal">Please Sign Up</h1>
+
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control top"
+            name="fname"
+            placeholder="First Name"
+          />
+          <label for="floatingInput">First Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control middle"
+            name="lname"
+            placeholder="last Name"
+          />
+          <label for="floatingPassword">last Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control bottom"
+            name="email"
+            placeholder="Email Address"
+          />
+          <label for="floatingPassword">Email Address</label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign me Up!!
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; Nishant</p>
+      </form>
+    </main>
+  </body>
+</html>
